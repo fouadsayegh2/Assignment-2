@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset = "utf-8">
+    <meta name = "viewport" content = "width=device-width, initial-scale=1">
+    <title>Home</title>
+    <style>
+        html, body {
+            margin: 0;
+            padding: 0;
+            height: 100%;
+        }
+
+        body {
+            background-image: url('https://wallpapers.com/images/hd/minimalist-zoom-background-office-77oveytkzggaqgbt.jpg');
+            background-size: cover;
+            background-position: center;
+            font-family: 'Arial', 'sans-serif';
+            min-height: 100%;
+            flex-direction: column;
+            display: flex;
+        }
+
+        header, footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 15px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+        }
+        
+        nav a {
+            text-decoration: none;
+            text-align: center;
+            padding: 10px;
+            font-size: 22px;
+            color: #333;
+            flex: 1;
+        }
+
+        nav a:hover {
+            color: #4639d5;
+        }
+
+        .content {
+            flex: 1;
+            margin: 100px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        form {
+            text-align: left;
+            width: 300px;
+        }
+
+        button {
+            background-color: #333;
+            color: white;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #4639d5;
+        }
+    </style>
+
+</head>
+<body>
+    <header>
+        <h1>Welcome to Our Business</h1>
+    </header>
+    <br>
+    <nav>
+        <a href = "index.html">Home</a>
+        <a href = "services.html">Services</a>
+        <a href = "contact.html">Contact</a>
+    </nav>
+
+    <div class = "content">
+        <h2>Our Services</h2>
+        <p>We offer a variety of services to meet your needs. Check out our Services page for more information.</p> <br>
+        <table border = "1" style="width:100%; text-align:center;">
+            <tr>
+                <th>Service</th>
+                <th>Price</th>
+            </tr>
+            <tr>
+                <td>Consultation</td>
+                <td>$100</td>
+            </tr>
+            <tr>
+                <td>Development</td>
+                <td>$500</td>
+            </tr>
+        </table>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 Our Business. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
